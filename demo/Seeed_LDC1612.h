@@ -70,11 +70,16 @@ typedef enum {
 
 #endif
 
-#define DEFAULT_IIC_ADDR  0x2B
+#define DEFAULT_IIC_ADDR  0x2A
 
 /*Register Rddr*/
 /***************************************************************************/
-#define CONVERTION_RESULT_REG_START             0X00
+// #define CONVERTION_RESULT_REG_START             0X00
+#define I2C_EEPROM_HIGH_ADDR_CHANNEL0  0x00
+#define I2C_EEPROM_LOW_ADDR_CHANNEL0   0x01
+#define I2C_EEPROM_HIGH_ADDR_CHANNEL1  0x02
+#define I2C_EEPROM_LOW_ADDR_CHANNEL1   0x03
+
 #define SET_CONVERSION_TIME_REG_START           0X08
 #define SET_CONVERSION_OFFSET_REG_START         0X0C
 #define SET_LC_STABILIZE_REG_START              0X10

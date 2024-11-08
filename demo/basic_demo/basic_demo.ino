@@ -25,7 +25,7 @@ void setup()
 void loop()
 {
     u32 result_channel0 = 0;
-    u32 result_channel1 = 0;
+    // u32 result_channel1 = 0;
     // uint32_t result_channel2 = 0;
 
     /*shows the status of sensor.*/
